@@ -1,0 +1,35 @@
+/*wap to following pattern
+* * * * *
+    * * *
+        *  */
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+		int i,j,a;
+		clrscr();
+		printf("Enter the value:");
+		scanf("%d",&i);
+		for(j=0;j<=i;j++)
+		{
+			printf(" ");
+		}
+		for(a=o;a<=2*j-1;a++) 
+		{
+			printf("*");
+		}
+		printf("\n");
+		}
+		getch();
+}
+
+
+output:
+Enter for of a:3
+* * * * *
+    * * * 
+        *
+
+
+
+	
